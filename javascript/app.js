@@ -33,11 +33,11 @@ function getRandomPhraseAsArray(arr) {
     //TEST
     console.log('random phrase generator test')
 
-    return b
+    return b;
 }
 
 // DISPLAYING THE PHRASE FUNCTION
-function addPhraseTvvvvvvvvvvvoDisplay(arr) {
+function addPhraseToDisplay(arr) {
     for (let i = 0; i < arr.length; i += 1) {
         //CONNECT LETTERS TO PHRASE SECTION
         const letter = document.querySelector('#phrase ul');
