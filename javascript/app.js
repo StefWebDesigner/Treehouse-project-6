@@ -140,6 +140,8 @@ function checkWin() {
         start_screen.className = 'win';
         status_message.textContent = 'YOU WON!!!';
         game_replay.textContent = 'Play Again';
+        const text = alert('Great job! Try again!');
+
     } 
     //LOSE MESSAGE
     if (missed >= 5) {
@@ -147,6 +149,7 @@ function checkWin() {
         start_screen.className = 'lose';
         status_message.textContent = 'YOU LOST :(';
         game_replay.textContent = 'Play Again';
+        const text = alert("Why don't you try again!");
     }
 }
 

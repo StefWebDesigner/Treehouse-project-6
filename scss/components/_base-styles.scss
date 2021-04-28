@@ -36,6 +36,9 @@ body {
 li, ol, ul {
   padding: 0;
   display: inline-block;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
 }
 
 h2 {
@@ -56,7 +59,7 @@ button {
   border-radius: 5px;
   -webkit-transition: var(--transition);
   -o-transition: var(--transition);
-  transition: var(--transition);
+  transition: var(--transition); 
 }
 
 .main-container {
